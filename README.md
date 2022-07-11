@@ -35,7 +35,7 @@ git clone URL
 
 7 - Install Apache on the instance, making a bash script to do this.  Save your Bash Script
   - will need permissions changed too on the file remeber
-
+sudo systemctl enable httpd.service -this will always have your HTTP there. 
 
 
 8 - Verify Apache is running using the command line.  What is Apache?
