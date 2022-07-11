@@ -3,13 +3,15 @@
 1 - provision and EC2 instance open on port 22
     -Create a new key pair for this instance too, we will delete it later
     -SSH into the instance
-    ssh -i koko.pem ec2-user@54.157.254.137
+    -ssh -i koko.pem ec2-user@54.157.254.137
+    chmod 700 koko.pem
+    sudo yum install git
 
 #### Write command under question for each one. 
 
 2 - Clone this Repo into the instance
 
-
+git clone URL
 
 3 - Create a new Branch for this Repo
 
